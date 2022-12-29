@@ -1,0 +1,649 @@
+body {
+    margin: 0;
+    min-width: 360px;
+    min-height: 200px;
+}
+
+.top {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-flow: row nowrap;
+    height: 5vw;
+    border-bottom: 1px solid black;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: fit-content;;
+    height: fit-content;;
+    word-wrap: normal;
+}
+
+.logo img {
+    width: 4vw;
+}
+
+.logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    color: #333333;
+    margin-left: 1vw;
+}
+
+.top .a {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 39.5vw;
+    justify-content: end;
+}
+
+.top .a a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #404040;
+    margin: 0 2vw;
+}
+
+main {
+    position: relative;
+    top: 5vw;
+    height: max-content;
+}
+
+article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+article h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.cards {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;   
+}
+
+.card p {
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #333333;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.intro header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 2vw;
+    height: 27vw;
+    background-image: url(../assets/IMAGE-22.png);
+    background-size: cover;
+}
+
+.intro header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 50vw;
+    margin: 0;
+}
+
+.intro header p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    width: 40vw;
+    margin: 0;
+}
+
+.intro footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 6vw;
+    height: 20vw;
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+.intro footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    text-align: center;
+    width: 60vw;
+    color: #47474F;
+}
+
+.intro footer button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #47474F;
+    background-color: rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 1vw 2vw;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+#Process {
+    gap: 5vw;
+    height: 50vw;
+}
+
+#Process .cards {
+    flex-flow: row nowrap;
+    gap: 6vw;
+}
+
+#Process .card {
+    width: 20vw;
+    gap: 2vw;
+}
+
+#Process .card img {
+    width: 60%;
+    padding: 4vw 6vw;
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+#Projects {
+    align-content: center;
+    align-items: center;
+    gap: 7.5vw;
+    height: auto;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+#Projects h1 {
+    margin-top: 4vw;
+}
+
+#Projects .cards {
+    margin-bottom: 4vw;
+    flex-flow: row wrap;
+    gap: 2vw;
+}
+
+#Projects .card {
+    background-color: white;
+    width: 25vw;
+}
+
+#Projects .card img {
+    width: 100%;
+}
+
+#Projects .card h1 {
+    margin-top: 2vw;
+}
+
+#Projects .card p {
+    margin-bottom: 2vw;
+}
+
+#Team {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#Team header h1 {
+    margin-top: 5vw;
+}
+
+#Team header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    gap: 4vw;
+}
+
+#Team .cards {
+    flex-flow: row wrap;
+    gap: 1vw;
+}
+
+#Team .card {
+    width: 19vw;
+    margin: 1vw;
+    gap: 0.5vw;
+}
+
+#Team .card img {
+    width: 100%;
+}
+
+#Team .card h1 {
+    margin-top: 1vw;
+}
+
+#Team .card p {
+    margin-bottom: 1vw;
+}
+
+#Team footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-image: url(../assets/IMAGE-5.png);
+    background-repeat: no-repeat;
+    background-position: center 4vw;
+    background-color: rgba(245, 245, 245, 1);
+    background-size: 5vw;
+}
+
+.feedback {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10vw 0;
+    align-items: center;
+    align-content: center;
+    width: 20vw;
+    height: 20vw;
+    justify-content: space-between;
+}
+
+.f {
+    padding-right: 10vw;
+    border-right: 2px solid rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+.s {
+    padding-left: 10vw;
+    border-left: 2px solid rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+.feedback div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.feedback img {
+    width: 5vw;
+}
+
+.feedback p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #333333;
+}
+
+.feedback h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+
+#Contacts {
+    gap: 7.5vw;
+    height: 40vw;
+    background-image: url(../assets/IMAGE\ \(1\).png);
+    background-size: cover;
+}
+
+#Contacts .cards {
+    gap: 10vw;
+}
+
+#Contacts .card {
+    text-decoration: none;
+    width: 15vw;
+    justify-content: space-between;
+    height: 10vw;
+}
+
+#Contacts .card img {
+    width: 30%;
+}
+
+#Contacts .card .point {
+    width: 20%;
+}
+
+@media (orientation: portrait) {
+    
+    .top {
+        position: relative;
+        flex-flow: column nowrap;
+        height: auto;
+    }
+    
+    .logo h1 {
+        font-size: 8vw;
+        height: auto;
+    }
+    
+    .logo img {
+        width: 10vw;
+    }
+    
+    .top .a {
+        flex-flow: column nowrap;
+        height: auto;
+    }
+    
+    .top .a a {
+        font-size: 7vw;
+    }
+    
+    .top a {
+        padding: 2vw;
+    }
+
+    main {
+        top: 0;
+    }
+
+    article h1 {
+        font-size: 4vw;
+    }
+    
+    .card h1 {
+        font-size: 3.5vw;
+    }
+    
+    .card p {
+        font-size: 2.5vw;
+    }
+    
+    .intro header {
+        gap: 20vw;
+        height: 80vw;
+    }
+    
+    .intro header h1 {
+        font-size: 5vw;
+        width: 70vw;
+    }
+    
+    .intro header p {
+        font-size: 4vw;
+        width: 60vw;
+    }
+    
+    .intro footer {
+        gap: 5vw;
+        height: max-content;
+    }
+    
+    .intro footer p {
+        margin: 0;
+        margin-top: 5vw;
+        font-size: 4vw;
+        line-height: 6vw;
+        text-align: center;
+        width: 80vw;
+        color: #47474F;
+    }
+    
+    .intro footer button {
+        margin: 0;
+        margin-bottom: 5vw;
+        font-size: 4vw;
+        width: fit-content;
+        padding: 2vw 4vw;
+    }
+
+    #Process {
+        gap: 0;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    #Process .cards {
+        flex-flow: column nowrap;
+        gap: 0;
+    }
+    
+    #Process .card {
+        width: 50vw;
+        margin-bottom: 5vw;
+    }
+
+    #Projects {
+        gap: 0;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    #Projects .cards {
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    #Projects .card {
+        width: 40vw;
+        margin: 2vw;
+    }
+
+    #Team header {
+        height: auto;
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    #Team .cards {
+        gap: 0;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+
+    #Team .card {
+        margin: 2vw;
+        width: 40vw;
+    }
+
+    #Team footer {
+        height: max-content;
+    }
+
+    #Team .feedback {
+        width: 35vw;
+        padding: 2vw;
+        height: 40vw;
+    }
+
+    .feedback img {
+        width: 10vw;
+    }
+
+    #Team .feedback p {
+        font-size: 3vw;
+    }
+
+    #Team .feedback h1 {
+        font-size: 2vw;
+    }
+
+    #Contacts {
+        height: auto;
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    #Contacts h1 {
+        margin: 0;
+        margin-top: 10vw;
+    }
+
+    #Contacts .cards {
+        height: auto;
+        flex-flow: column;
+        margin: 10vw;
+    }
+
+    #Contacts .card {
+        width: 40vw;
+        height: auto;
+    }
+
+    #Contacts .card h1 {
+        font-size: 3vw;
+        margin-top: 4vw;
+    }
+}
+
+@media (min-width: 1280px) {
+    .logo h1 {
+        font-size: 2vw;
+    }
+    .top .a a {
+        font-size: 1.5vw;
+    }
+    #Projects .card {
+        width: 35vw;
+    }
+
+    #Team .card {
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .logo h1 {
+        font-size: 1.5vw;
+    }
+    .top .a a {
+        font-size: 1vw;
+    }
+    .top {
+        height: 5vw;
+    }
+
+    .top .logo img {
+        width: 4vw;
+    }
+
+    main {
+        top: 5vw;
+    }
+    
+    #Projects .card {
+        width: 30vw;
+    }
+
+    #Team .cards {
+        gap: 2vw;
+    }
+
+    #Team .card {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .top {
+        height: 3vw;
+    }
+
+    .top .logo img {
+        width: 2vw;
+    }
+
+    main {
+        top: 3vw;
+    }
+    
+    #Projects .card {
+        width: 20vw;
+    }
+
+    #Team .cards {
+        gap: 5vw;
+    }
+
+    #Team .card {
+        width: 15vw;
+    }
+}
